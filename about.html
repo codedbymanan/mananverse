@@ -1,0 +1,50 @@
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body class="aboutme-page">
+  <header>
+    <h1>About Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="about-section">
+    <div class="about-photo">
+      <img src="Assets/About/photo.jpeg" alt="Your Photo">
+    </div>
+    <div class="about-content">
+      <h2>Hello, I'm Manan</h2>
+      <p>I’m an aspiring frontend developer with a knack for design. I’ve explored web development and creative tools like Canva and PowerPoint.</p>
+      <h3>Skills</h3>
+      <div class="skills-container">
+        <div class="skill-card" data-aos="zoom-in"><i class="fab fa-html5"></i><p>HTML</p></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="100"><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="200"><i class="fas fa-paint-brush"></i><p>Canva</p></div>
+        <div class="skill-card" data-aos="zoom-in" data-aos-delay="300"><i class="fas fa-file-powerpoint"></i><p>PowerPoint</p></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Manan Garg. All rights reserved.</p>
+  </footer>
+
+  <!-- AOS Animation -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
